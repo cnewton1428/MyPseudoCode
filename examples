@@ -2,22 +2,24 @@
 Can't get enough of Program Design
 
 1.
+Set Measurements=0
 Do 
-	Check Measurements
-	If Measurements <=15 
-		Allow
-	Else
-		Disallow
+	Measurements+=1
+	Input eachMeasurement
+	Print eachMeasurement*25.4
 
-While (Measurements <=15) are in Database
-Convert each measurement from units inches to millimeters
+While Measurements <=15
+Print "All Measurements are displayed" 
+
 
 2.
-Check Measurements
-	If Measurements <=15
-		Allow
-	Else 
-		Disallow
+Check Counts
+
+Set Counts=0
+	
+	Counts+=1
+	Input Counts
+	Print Counts*25.4
 End While
 
 3.
@@ -25,9 +27,8 @@ Set count = 0
 For Count <15
 	Print Count 
 	Count= Count + 1
-	Print "Enter a Measurement"
-	Input Measurements in unit inches
-	Add the measurements and convert each measurement from the units inches to millimeters
-	Print the Counts with units in millimeters
+	Input Measurement 
+	Print Measurement*25.4
+	
 End For
-	Print all results
+	Print "All results displayed"
