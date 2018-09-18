@@ -1,5 +1,6 @@
 ## This is my examples file
-Can't get enough of Program Design
+
+First Assignment: Can't get enough of Program Design
 
 1.
 Set Measurements=0
@@ -32,3 +33,73 @@ For Count <15
 	
 End For
 	Print "All results displayed"
+
+
+Second Assignment:  Program Design, Pseudocode and Algorithms
+
+1. 
+Set integer=0
+Set integer counter to one 
+Input the first integer
+While the user has typed on the keyboard
+	Add 5 to the integer
+	Multiply result by 2
+	Subtract 7 from the total value
+End While
+	Print "Results"
+
+Test 1
+Integer from user on Keyboard= 2
+Add 5+2= 7
+7*2= 14-7= 7
+
+Test 2
+Integer from user on Keyboard= 4
+Add 5+4= 10
+10*2= 20-7= 13
+
+2.
+Set Measurements=3
+Do 
+	Measurements+=1
+	Input numbers
+	Print Add three numbers
+
+While Measurements <=3
+Print "Total"
+
+Test 1 
+2+5+10=17
+
+Test 2
+3+5+7=15 
+
+3. 
+Set total to zero
+Set grade counter to one
+While grade counter is less than or equal to ten
+	Input next exam score
+	Add the exam scores into the total
+End While
+Set class average to the total divided by ten
+Print "Class Average Results"
+
+Test 1
+70+80+90+90+80+80+70+90+90+90=830
+830/10= 83
+
+Test 2
+80+80+80+80+80+80+80+80+80+80= 800
+800/10= 80
+
+4. 
+Set Calculations=0
+Do 
+	Calculations+=1
+	Input Roof dimensions
+	Print Roof dimension*144,000
+	Divide total by 231 to equal number of gallons 
+
+While Calculations=623.38
+Print "Total Number of Gallons" 
+	
